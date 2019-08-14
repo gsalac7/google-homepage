@@ -1,0 +1,112 @@
+html,
+body {
+  height: 100%;
+}
+
+#app {
+  margin: 0;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-nav-bar,
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.top-nav-bar,
+li {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+.top-nav-bar,
+li:hover {
+  text-decoration: underline;
+}
+
+.top-nav-bar,
+a {
+  font-size: 15px;
+  font-family: Arial;
+  text-decoration: none;
+  color: rgb(44, 40, 40);
+}
+
+.Logo {
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+  width: 35%;
+  display: block;
+  padding-bottom: 25px;
+}
+
+.Search-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Search-bar {
+  height: 30px;
+  border-radius: 25px;
+  width: 500px;
+}
+
+.Search-container,
+input:hover {
+  border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+
+.button-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Google-search {
+  height: 30px;
+  width: 25%;
+  display: block;
+  margin-top: 20px;
+  margin-right: 15px;
+  border: 1px solid #f2f2f2;
+  color: #757575;
+  cursor: default;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#button-container,
+button:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  color: #222;
+}
+
+.Lucky-search {
+  height: 30px;
+  width: 25%;
+  display: block;
+  margin-top: 20px;
+  border: 1px solid #f2f2f2;
+  color: #757575;
+  cursor: default;
+  font-size: 14px;
+  font-weight: bold;
+}
