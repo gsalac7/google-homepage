@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Google Homepage</title>
+		<title>Google</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="src/styles.css">
+		<script src="src/index.js" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" />
 	</head>
 	<body>
-		<div>
-			<p>
-				Google	
-			</p>
+		<div id="top-nav-bar">
+			<ul>
+				<li><a href="https://about.google/intl/en/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+				<li><a href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042">Store</a></li>
+				<li style="float:right"><a href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0&ogbl">Images</a></li>
+				<li style="float:right"><a href="https://www.google.com/gmail/">Gmail</a></li>
+			</ul>
 		</div>
-		<div class="search">
-			<input type="text" class="searchTerm" placeholder="What are you looking for?">
-			<button type="submit" class="searchButton">
-				<i class="fa fa-search"></i>
-			</button>
+		<div id="app">
+			<img src="src/google_logo.png" class="Logo">
+			<div class="Search-container">
+				<input type = "text" class = "Search-bar"/>
+			</div>
+			<div class="button-container">
+				<button class="Google-search">Google Search</button>
+				<button class="Lucky-search">I'm Feeling Lucky</button>
+			</div>
 		</div>
 	</body>
 </html>
